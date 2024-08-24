@@ -24,6 +24,7 @@
 form .row{
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
     
 }
 
@@ -64,9 +65,11 @@ form .row{
 }
 
 .input-box img{
+    width: 100%;
     height: 34px;
     margin-top: 5px;
     filter: drop-shadow(0 0 1px #000);
+    object-fit: contain;
 }
 
 form .btn{
