@@ -69,7 +69,7 @@ form .row{
     filter: drop-shadow(0 0 1px #000);
 }
 
-.form .btn{
+form .btn{
     width: 100%;
     padding: 12px;
     background: #8175d3;
